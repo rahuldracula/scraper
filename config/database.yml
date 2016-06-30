@@ -37,7 +37,7 @@ test:
 #
 production:
     <<: *default
-    socket: /var/run/mysqld/mysqld.sockocket
+    socket: /var/run/mysqld/mysqld.sock
     database: scraper_production
     username: root
     password: root
