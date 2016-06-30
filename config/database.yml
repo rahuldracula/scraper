@@ -35,4 +35,7 @@ test:
 #   mysql2://myuser:mypass@localhost/somedatabase
 #
 production:
-  url: <%= ENV["DATABASE_URL"] %>
+  <<: *default
+    database: scraper_production
+    username: scraper
+    password: root
