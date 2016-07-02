@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  from_city: MyString
+  to_city: MyString
+  from_city_id: 1
+  to_city_id: 1
+
+two:
+  from_city: MyString
+  to_city: MyString
+  from_city_id: 1
+  to_city_id: 1
